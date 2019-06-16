@@ -1,0 +1,32 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "hello world"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Alaina"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:alaina.codes@gmail.com"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/alaina-codes"
+
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://instagram.com/alainacodes"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/alainacodes"
