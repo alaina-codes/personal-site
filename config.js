@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.ico',
+  manifestIcon: 'src/assets/img/website-icon.png',
   heading: 'alaina',
   subHeading: 'software engineer',
   // social
