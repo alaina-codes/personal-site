@@ -4,6 +4,14 @@ const AboutMe = () => {
     return (
         <section className="about-me">
             <h1>About Me</h1>
+            <h2>
+                i am a former teacher turned full-stack software engineer who loves
+                <span class="funky"> funky</span> challenges,
+                <span class="whimsy">whimsical</span> user experiences,
+                and being the
+                <span class="jokes"> best slack-moji reactioner</span> i can
+                be (jokes, jokes).
+            </h2>
             <p>
                 my path to becoming a software engineer was certainly a bumpy
                 one. starting off as an english teacher, i quickly realized the

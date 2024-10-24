@@ -18,16 +18,3 @@ function App() {
 }
 
 export default App;
-
-
-// src/
-//   components/
-//     layout/
-//       Header.js
-//       Footer.js
-//     sections/
-//       About.js
-//       Projects.js
-//       Contact.js
-//   App.js
-//   index.js

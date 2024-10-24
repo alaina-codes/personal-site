@@ -7,7 +7,29 @@ footer {
   background-color: #ff5e6c;
   color: black;
   padding: 20px;
-  /* position: fixed; */
   bottom: 0;
   width: 100%;
+}
+
+
+
+
+.funky {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #be4f2a;
+}
+
+.whimsy {
+  background: linear-gradient(to left, #eaa534, #939a66 100%);
+  background-position: 0 100%;
+  background-size: 100% 3px;
+  background-repeat: repeat-x;
+}
+
+.jokes {
+  content: "";
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(115, 173, 33, 0.5);
+  z-index: -1;
 }
