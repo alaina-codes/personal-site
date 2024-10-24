@@ -2,3 +2,12 @@ body {
   text-align: center;
   background-color: #fff5d7;
 }
+
+footer {
+  background-color: #ff5e6c;
+  color: black;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
