@@ -1,7 +1,22 @@
 /* main */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* note... need to update text-align to just be the header and footer, not the entire body, but it's okay for now. */
 body {
   text-align: center;
   background-color: #fff5d7;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* header */
