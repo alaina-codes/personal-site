@@ -1,6 +1,6 @@
-import React from 'react';;
+import React from 'react';
 
-const Contact = () => { 
+const Contact = () => {
     return (
         <section className="contact-section">
             <h2>Contact Me</h2>
