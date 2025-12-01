@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap");
 
 body {
-    background-color: #fbf7f5;
+    background-color: #fef6f0;
     padding: 5%;
     font-family: "Lato", sans-serif;
 }
 
 .bio {
     border-radius: 25px;
-    border: 2px solid #73ad21;
+    border: 2px solid #d4a5a5;
     padding: 20px;
 }
 
 .funky {
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #be4f2a;
+    text-decoration-color: #e8766f;
 }
 
 .whimsy {
-    background: linear-gradient(to left, #eaa534, #939a66 100%);
+    background: linear-gradient(to left, #f4b183, #d4a5a5 100%);
     background-position: 0 100%;
     background-size: 100% 3px;
     background-repeat: repeat-x;
@@ -28,7 +28,7 @@ body {
 .jokes {
     content: "";
     transform: skew(-12deg) translateX(-50%);
-    background: rgba(115, 173, 33, 0.5);
+    background: rgba(212, 165, 165, 0.5);
     z-index: -1;
 }
 
@@ -45,7 +45,7 @@ a {
 
 a::before {
     content: "";
-    background-color: rgba(115, 173, 33, 0.5);
+    background-color: rgba(212, 165, 165, 0.5);
     position: absolute;
     left: 0;
     bottom: 3px;
@@ -58,4 +58,44 @@ a::before {
 a:hover::before {
     bottom: 0;
     height: 100%;
+}
+
+.timeline-section {
+    margin-top: 1.5rem;
+}
+
+.timeline {
+    border-left: 2px solid #d4a5a5;
+    padding-left: 1.5rem;
+    margin-top: 0.75rem;
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.timeline-item::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d4a5a5;
+    position: absolute;
+    left: calc(-1.5rem - 6px);
+    top: 0.3rem;
+}
+
+.timeline-item h4 {
+    margin: 0 0 0.15rem 0;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.timeline-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
