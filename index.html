@@ -1,92 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="description"
-            content="Introduction website for Alaina Rogacki, a full-stack software engineer in Detroit, Michigan."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alaina Rogacki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
 
-        <link rel="stylesheet" href="styles/styles.css" />
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#hero">Alaina Rogacki</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-        <title>hello - it's alaina</title>
-    </head>
-    <body>
-        <main>
-            <main>
-            <section>
-                <div class="bio">
-                    <h1>hi - i'm alaina</h1>
-                    <h2>
-                        i am a former teacher turned software engineer who loves
-                        <span class="funky">funky</span> challenges,
-                        <span class="whimsy">whimsical</span> user experiences,
-                        and being the
-                        <span class="jokes">best slack-moji reactor</span> i can
-                        be (jokes, jokes).
-                    </h2>
+  <!-- HERO -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-shapes">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="hero-inner">
+      <p class="hero-eyebrow">former teacher · software engineer · future sports exec</p>
+      <h1 class="hero-title">Hi — I'm <em>Alaina.</em></h1>
+      <p class="hero-sub">
+        I've built software, led classrooms, and mentored teams. Now I'm channeling all of it into
+        <strong>sports administration</strong> because the best operations happen behind the scenes.
+      </p>
+      <div class="hero-cta">
+        <a href="#experience" class="btn btn-primary">My journey ↓</a>
+        <a href="https://www.linkedin.com/in/alainarogacki/" target="_blank" class="btn btn-outline">LinkedIn →</a>
+      </div>
+    </div>
+  </section>
 
-                    <h3>my path here</h3>
+  <hr class="divider" />
 
-                    <section class="timeline-section">
-                        <div class="timeline">
-                            <div class="timeline-item">
-                                <h4>1990s–early 2000s</h4>
-                                <p>grows up in toledo, ohio. develops personality despite this.</p>
-                            </div>
+  <!-- ABOUT / TIMELINE -->
+  <section id="about">
+    <p class="section-label">the origin story</p>
+    <h2 class="section-title">A few <em>plot twists,</em><br/>a lot of lessons.</h2>
 
-                            <div class="timeline-item">
-                                <h4>college</h4>
-                                <p>discovers writing, rowing, and the invigorating feeling of academic deadlines whooshing by. falls in love with football.</p>
-                            </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-era">1990s – early 2000s</div>
+        <div class="timeline-heading">Toledo, Ohio. Character building.</div>
+        <div class="timeline-body">Grew up curious, competitive, and slightly obsessed with football. The foundation was already strange and wonderful.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-era">College</div>
+        <div class="timeline-heading">Rowing, writing, and deadlines.</div>
+        <div class="timeline-body">Discovered the joy of being on a team, the rush of a good sentence, and a bone-deep love of football.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-era">Post-grad</div>
+        <div class="timeline-heading">Detroit. High school English. Yearbook.</div>
+        <div class="timeline-body">Learned to lead rooms of teenagers, navigate complicated emotions, and hype students toward bigger futures. It turned out to be excellent training for everything else.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-era">2016 – 2024</div>
+        <div class="timeline-heading">Software engineer era.</div>
+        <div class="timeline-body">Built dashboards, systems, and tools at Rocket Mortgage and ActiveCampaign. Became good at troubleshooting, mentoring, and leading teams. Then burned out spectacularly and took it as a sign.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-era">The break</div>
+        <div class="timeline-heading">Reset. Reconnect. Remember.</div>
+        <div class="timeline-body">Came back to creativity, sports, community, and rowing. Started feeling like herself again.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-era">October 2025</div>
+        <div class="timeline-heading">Applied to grad school. Got in. Cried happy tears.</div>
+        <div class="timeline-body">Now pursuing an MS in Sport Administration at the University of Cincinnati. The pivot is real and it's good.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-era">Now</div>
+        <div class="timeline-heading">Grad school + figuring out the next thing.</div>
+        <div class="timeline-body">Balancing coursework, being a manager, and a very clear goal: a role in NFL or collegiate sports operations, communications, or administration.</div>
+      </div>
+    </div>
+  </section>
 
-                            <div class="timeline-item">
-                                <h4>post-grad</h4>
-                                <p>moves to detroit to teach high school english and yearbook. learns how to lead classrooms, navigate teenage emotions, and hype students up for college apps.</p>
-                            </div>
+  <hr class="divider" />
 
-                            <div class="timeline-item">
-                                <h4>after teaching</h4>
-                                <p>dips into financial services. stumbles into software engineering.</p>
-                            </div>
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label">what I bring</p>
+    <h2 class="section-title">A genuinely <em>weird mix</em><br/>of skills (in a good way).</h2>
 
-                            <div class="timeline-item">
-                                <h4>software engineer era</h4>
-                                <p>builds dashboards, systems, tools. becomes very good at troubleshooting. and mentoring. burns out spectacularly. decides to breathe, reset, and rethink everything.</p>
-                            </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-card-icon">🏟️</div>
+        <div class="skill-card-title">Sports Administration</div>
+        <div class="skill-tags">
+          <span class="tag">Facility Operations</span>
+          <span class="tag">Strategic Mgmt</span>
+          <span class="tag">Sustainability</span>
+          <span class="tag">Event Planning</span>
+          <span class="tag">NCAA/NFL Policy</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">💻</div>
+        <div class="skill-card-title">Engineering Background</div>
+        <div class="skill-tags">
+          <span class="tag">Systems Design</span>
+          <span class="tag">Data Analysis</span>
+          <span class="tag">Process Automation</span>
+          <span class="tag">Dashboards</span>
+          <span class="tag">Technical Writing</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🎓</div>
+        <div class="skill-card-title">Education & Mentoring</div>
+        <div class="skill-tags">
+          <span class="tag">Team Leadership</span>
+          <span class="tag">Curriculum Design</span>
+          <span class="tag">Public Speaking</span>
+          <span class="tag">Coaching</span>
+          <span class="tag">Mentoring</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">✍️</div>
+        <div class="skill-card-title">Communication</div>
+        <div class="skill-tags">
+          <span class="tag">Copywriting</span>
+          <span class="tag">Research</span>
+          <span class="tag">Storytelling</span>
+          <span class="tag">Stakeholder Comms</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🚣</div>
+        <div class="skill-card-title">Athlete Perspective</div>
+        <div class="skill-tags">
+          <span class="tag">Collegiate Rowing</span>
+          <span class="tag">Competitive Mindset</span>
+          <span class="tag">Team Dynamics</span>
+          <span class="tag">Resilience</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🦁</div>
+        <div class="skill-card-title">Detroit Sports Loyalist</div>
+        <div class="skill-tags">
+          <span class="tag">Detroit Lions</span>
+          <span class="tag">Ford Field Knowledge</span>
+          <span class="tag">Fan Experience</span>
+          <span class="tag">Market Context</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                            <div class="timeline-item">
-                                <h4>the break</h4>
-                                <p>reconnects with creativity, mentoring, sports, and community. starts feeling like herself again.</p>
-                            </div>
+  <!-- EXPERIENCE (dark section) -->
+  <div class="resume-section" id="experience">
+    <div class="resume-inner">
+      <p class="section-label">experience</p>
+      <h2 class="section-title">Where I've <em>been.</em></h2>
 
-                            <div class="timeline-item">
-                                <h4>october 2025</h4>
-                                <p>applies to grad school. gets in. cries happy tears. begins the pivot toward sports administration.</p>
-                            </div>
+     <div class="resume-row">
+        <div>
+          <div class="resume-date">Oct 2025 – Present</div>
+          <div class="resume-role">Assistant Manager</div>
+          <div class="resume-place">Noteworthy by Design · Ann Arbor, MI</div>
+        </div>
+        <div class="resume-desc">Manage daily store operations, lead a team of associates, and oversee inventory management and customer experience in a fast-paced retail environment.</div>
+      </div>
 
-                            <div class="timeline-item">
-                                <h4>now</h4>
-                                <p>balancing grad school, lions fandom, and the thrilling art of figuring out the next dream job in sports operations.</p>
-                            </div>
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Oct 2025 – Present</div>
+          <div class="resume-role">MS, Sport Administration</div>
+          <div class="resume-place">University of Cincinnati</div>
+        </div>
+        <div class="resume-desc">Focused on facility operations, sustainability, strategic management, and sport communications. Conducting original research on NFL stadium initiatives including Ford Field sustainability programming.</div>
+      </div>
 
-                            <div class="timeline-item">
-                                <h4>future</h4>
-                                <p>nfl or collegiate athletic department: operations, communications, administration, or something equally behind-the-scenes and powerful. also: petting her cat.</p>
-                            </div>
-                        </div>
-                    </section>
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Jan – Oct 2025</div>
+          <div class="resume-role">Brand Associate</div>
+          <div class="resume-place">Old Navy · Part-time</div>
+        </div>
+        <div class="resume-desc">Provided exceptional customer service and supported store operations in a team-oriented retail environment. Awarded Employee of the Month in the first month.</div>
+      </div>
 
-                    <p>
-                        <a href="https://www.linkedin.com/in/alainarogacki/">linkedin</a>
-                    </p>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <p>© 2025: alaina rogacki</p>
-        </footer>
-    </body>
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Jul – Jan 2025</div>
+          <div class="resume-role">Career Break</div>
+          <div class="resume-place">Personal Goal Pursuit</div>
+        </div>
+        <div class="resume-desc">Took an intentional break to explore passions, reflect on long-term goals, and determine the next professional chapter which ultimately led to the pivot into sports administration.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Oct 2020 – Jun 2024</div>
+          <div class="resume-role">Software Engineer III</div>
+          <div class="resume-place">ActiveCampaign · Remote</div>
+        </div>
+        <div class="resume-desc">Lead engineer for the Customer-Centric Engineering team. Mentored 5+ engineers, led 10+ company-wide presentations, and conducted 25+ interviews. Migrated to event-based Zendesk integration reducing field population time from 72 hours to instantaneous. Integrated DEI practices increasing team participation by 30%.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Mar 2022 – Jan 2023</div>
+          <div class="resume-role">Education Mentor</div>
+          <div class="resume-place">Thinkful · Contract</div>
+        </div>
+        <div class="resume-desc">Mentored two career-transitioning students from foundational coding skills to job offers through weekly sessions on coding challenges, technology, and career readiness — achieving a 100% placement rate.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Mar 2018 – Oct 2020</div>
+          <div class="resume-role">Software Engineer</div>
+          <div class="resume-place">Rocket Mortgage · Greater Detroit Area</div>
+        </div>
+        <div class="resume-desc">Optimized an internal release pipeline platform across on-premise, Kubernetes, and AWS. Mentored 3 developers, managed the release process, and set the benchmark for customer-centric documentation. Helped redesign an internal tech boot camp focused on AWS, CI/CD, and Infrastructure as Code.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">2019 – 2020</div>
+          <div class="resume-role">Guest Relations</div>
+          <div class="resume-place">Little Caesars Arena · Detroit, MI</div>
+        </div>
+        <div class="resume-desc">Delivered exceptional guest experiences at a major sports and entertainment venue, supporting operations and fan engagement on event days.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Nov 2015 – Mar 2018</div>
+          <div class="resume-role">Executive Client Care Specialist</div>
+          <div class="resume-place">Quicken Loans · Greater Detroit Area</div>
+        </div>
+        <div class="resume-desc">Closed over 1,500 loans across VA, FHA, and Conventional products with a 95% satisfaction rate. Spearheaded the first fully online VA mortgage process, serving hundreds of veterans with a seamless experience.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Jul 2014 – Nov 2015</div>
+          <div class="resume-role">English Language Teacher</div>
+          <div class="resume-place">American Promise Schools · Detroit, MI</div>
+        </div>
+        <div class="resume-desc">Taught College Writing and Journalism/Yearbook at a Southwestern Detroit charter school. Launched an after-school web design program, served as 12th grade lead teacher managing 4 teachers and 80+ students, and developed a college readiness program that raised average ACT scores by 3 points in 3 months.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">Oct 2013 – Nov 2015</div>
+          <div class="resume-role">Corps Member</div>
+          <div class="resume-place">Teach For America · Greater Detroit Area</div>
+        </div>
+        <div class="resume-desc">Selected from ~50,000 applicants nationwide to teach in an urban school setting. Completed intensive training and simultaneously taught in a summer school program for public and charter school students.</div>
+      </div>
+
+      <div class="resume-row">
+        <div>
+          <div class="resume-date">2014</div>
+          <div class="resume-role">BS, Middle Childhood Education</div>
+          <div class="resume-place">University of Cincinnati</div>
+        </div>
+        <div class="resume-desc">Focus in Language Arts and Social Studies. Collegiate rower. Developed teaching, leadership, and communication foundations that remain central to everything since.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">let's connect</p>
+    <div class="contact-inner">
+      <h2 class="contact-tagline">Working toward the <em>NFL front office.</em> Let's talk.</h2>
+      <p class="contact-body">
+        I'm looking for opportunities in sports operations, communications, administration, or somewhere equally powerful and behind-the-scenes. If you're building something interesting, I'd love to hear about it.
+      </p>
+      <a href="https://www.linkedin.com/in/alainarogacki/" target="_blank" class="btn btn-primary">Say hello on LinkedIn →</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Alaina Rogacki &nbsp;·&nbsp; built with intention (and strong opinions about the lions)
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.timeline-item, .skill-card').forEach((el, i) => {
+      el.style.transitionDelay = `${(i % 4) * 0.08}s`;
+      observer.observe(el);
+    });
+  </script>
+</body>
 </html>
